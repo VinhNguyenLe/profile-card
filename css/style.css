@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    display: none;
+}
+
+.card{
+    margin: 0 32px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(36, 38, 40, 0.9);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.img{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    transform: translateY(28px);
+    border: 4px solid #9319e4dc;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.img .cuong{
+    object-position: 50% 50%;
+}
+
+.img .hiep{
+    object-position: 50% 46%;
+}
+
+.img:hover{
+    width: 100%;
+    height: 100%;
+    border: unset;
+    border-radius: unset;
+    transform: unset;
+}
+
+.img:hover img{
+    border-radius: 12px;
+}
+
+.name{
+    margin-top: 54px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.school{
+    color: #f3bde6dc;
+    font-size: 18px;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 22px 28px;
+}
+
+.social div a i{
+    color: #fff;
+    transition: 0.3s;
+    font-size: 19px;
+}
+
+.social div a:hover i{
+    color: #a026f1dc;
+}
+
+.button{
+    margin-top: 30px;  
+    display: flex;
+    justify-content: center;
+}
+
+.button a{
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: 2px solid #a026f1dc;
+    padding: 12px 18px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.button a:hover{
+    background-color: #a026f1dc;
+}

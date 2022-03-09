@@ -1,0 +1,14 @@
+@media (max-width: 500px){
+    .card{
+        margin-bottom: 38px;
+    }
+
+    .title{
+        margin: 30px 0;
+        font-size: 30px;
+        display: block;
+        color: #fff;
+        font-weight: 600;
+    }
+    
+}
